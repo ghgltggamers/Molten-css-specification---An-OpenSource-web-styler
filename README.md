@@ -6,14 +6,7 @@
 The <b>Molten CSS Specification</b> simplifies web development by predefining styles for various HTML elements and components. This specification includes default themes, responsive elements, and modern CSS features such as transitions and gradients. It ensures consistent design across different devices and browsers, making it easier for developers to create visually appealing websites.
 
 ##Features
-    • Default Color Theme: A clean, modern look with a white background and neutral text color.
-    • Global Styles: Applies transitions and font settings to all HTML elements for a smooth, modern user experience.
-    • Typography: Predefined styles for headings, paragraphs, and text elements with optimized spacing and line-height.
-    • Navigation Bar: A responsive, shadowed navigation bar suitable for both mobile and desktop devices.
-    • Buttons: Various button styles (power, energy, trust) with hover and focus states for enhanced interactivity.
-    • Text Effects: Special text classes such as fancy-text for gradient-styled text.
-    • Footers: A simple, bold footer style using the 'molten-css-font-Oregon' font.
-    • Flexible Spacing: Flags for parent elements that adjust spacing between child elements, with options for major and minor adjustments.
+
     
 ##Usage
 To use Molten CSS in your project, simply link the CSS file in your HTML:

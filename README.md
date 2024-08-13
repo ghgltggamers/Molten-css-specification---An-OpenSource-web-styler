@@ -17,7 +17,8 @@ The <b>Molten CSS Specification</b> simplifies web development by predefining st
 ## Usage
 To use Molten CSS in your project, simply link the CSS file in your HTML:
 ```html
-<link rel="stylesheet" href="path/to/molten.css">```
+<link rel="stylesheet" href="path/to/molten.css">
+```
 
 Use the predefined classes and flags to style your elements:
 ```html
@@ -27,7 +28,8 @@ Use the predefined classes and flags to style your elements:
     <p>This is a paragraph styled with Molten CSS.</p>
     <button class="molten-css-power-button">Click Me</button>
     <footer>© 2024 Molten CSS</footer>
-</body>```
+</body>
+```
 
 ## Font Integration
 Molten CSS integrates custom fonts to enhance the visual appeal of your website. The specification includes a variety of font styles that can be easily applied using the font-family property.

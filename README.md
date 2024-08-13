@@ -38,7 +38,8 @@ Molten CSS integrates custom fonts to enhance the visual appeal of your website.
 ```css
 body {
     font-family: 'molten-css-font-Quicksand', Arial;
-}```
+}
+```
 
 # Contributing
 Contributions are welcome! If you'd like to contribute to the Molten CSS Specification, please fork the repository and create a pull request with your changes.

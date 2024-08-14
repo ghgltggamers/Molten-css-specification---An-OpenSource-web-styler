@@ -183,6 +183,92 @@ footer{
     font-family: 'molten-css-font-Oregon';
 }
 
+/* 
+
+    Update : started updating this on Aug 14 2024 at 08:26am 
+
+*/
+
+/* 
+    Specifications update
+*/
+.molten-css-card {
+    background-color: white;
+    border-radius: 20px;
+    padding: 10px;
+    box-shadow: 0px 0px 10px rgba(0,0,0,0.5);
+}
+/* Creates a card to a element 
+also has sub properties 
+can-hover : allows the card to be hovered
+can-click : allows the card to be clicked
+*/
+.molten-css-card-can-hover {
+    background-color: white;
+    border-radius: 20px;
+    padding: 10px;
+    box-shadow: 0px 0px 10px rgba(0,0,0,0.5);
+}
+.molten-css-card-can-hover:hover{
+    transform: scaleY(1.1);
+    cursor: pointer;
+}
+
+
+.molten-css-card-can-click {
+    background-color: white;
+    border-radius: 20px;
+    padding: 10px;
+    box-shadow: 0px 0px 10px rgba(0,0,0,0.5);
+}
+.molten-css-card-can-click:hover{
+    transform: scaleY(1.1);
+    cursor: pointer;
+}
+.molten-css-card-can-click:active{
+    transform: scale(0.9);
+    cursor: grab;
+    opacity: 0.7;
+}
+
+/* 
+
+    User input specification
+
+*/
+input{
+    background-color: rgba(255, 255,255,0.5);
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid silver;
+    border-radius: 5px;
+    outline: none;
+}
+input:hover{
+    background-color: rgba(255, 255,255,0.3);
+    cursor: pointer;
+}
+input:active{
+    border: 3px solid rgb(174, 223, 223);
+    cursor: text;
+}
+input:focus{
+    border: 3px solid rgb(174, 223, 223);
+    cursor: text;
+}
+
+/* Button update */
+button:hover{
+    background-color: silver;
+}
+button:focus{
+    background-color: white;
+    border: 3px solid rgb(174, 223, 223);
+    color: black;
+    outline: none;
+}
+
+
 
 
 
@@ -228,3 +314,198 @@ This also has sub types :
     ended up at : same day 21:04
 
 */
+
+
+/* 
+
+    Update : started updating this on Aug 14 2024 at 08:26am 
+
+*/
+
+/* 
+
+    Flags update
+
+*/
+
+.--molten-css-flex-box{
+    display: flex;
+}
+/* flex-box flag coverts the applied element into a flex box */
+.--molten-css-align-item-center{
+    align-items: center;
+}
+
+.--molten-css-justify-content-center{
+    justify-content: center;
+}
+
+/* 
+align-items-center positions the children to center vertically [|]
+justify-content-center positions the childern to center horizontly [-]
+*/
+
+.--molten-css-centered{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* padding-top: 50%; */
+}
+
+/* 
+centered flag positions the childern to centered both vertically and horizontly [|] [-]
+*/
+
+
+.--molten-css-box{
+    min-height: 50px;
+    min-width: 50px;
+    max-height: 400px;
+    max-width: 400px;
+}
+/* 
+
+    Converts any element into a box
+    also has scale factor properties
+     Note: a scale factor can only range between 0 and 9 and if no value has been given then by default scale factor property will set to 0
+     Scale factor can be 999 or infinite also to set infinite scale, but infinite directly afftects the height scale
+
+*/
+.--molten-css-box-scale-factor{
+    min-height: 50px;
+    min-width: 50px;
+    max-height: 100px;
+    max-width: 100px;
+}
+
+.--molten-css-box-scale-factor-0{
+    min-height: 50px;
+    min-width: 50px;
+    max-height: 100px;
+    max-width: 100px;
+}
+
+.--molten-css-box-scale-factor-1{
+    min-height: 50px;
+    min-width: 50px;
+    max-height: 200px;
+    max-width: 200px;
+}
+
+.--molten-css-box-scale-factor-2{
+    min-height: 50px;
+    min-width: 50px;
+    max-height: 300px;
+    max-width: 300px;
+}
+
+.--molten-css-box-scale-factor-3{
+    min-height: 50px;
+    min-width: 50px;
+    max-height: 400px;
+    max-width: 400px;
+}
+
+.--molten-css-box-scale-factor-4{
+    min-height: 50px;
+    min-width: 50px;
+    max-height: 500px;
+    max-width: 500px;
+}
+
+.--molten-css-box-scale-factor-5{
+    min-height: 50px;
+    min-width: 50px;
+    max-height: 600px;
+    max-width: 600px;
+}
+
+.--molten-css-box-scale-factor-6{
+    min-height: 50px;
+    min-width: 50px;
+    max-height: 700px;
+    max-width: 700px;
+}
+
+.--molten-css-box-scale-factor-7{
+    min-height: 50px;
+    min-width: 50px;
+    max-height: 800px;
+    max-width: 800px;
+}
+
+.--molten-css-box-scale-factor-8{
+    min-height: 50px;
+    min-width: 50px;
+    max-height: 900px;
+    max-width: 900px;
+}
+
+.--molten-css-box-scale-factor-9{
+    min-height: 50px;
+    min-width: 50px;
+    max-height: 1000px;
+    max-width: 1000px;
+}
+
+.--molten-css-box-scale-factor-999{
+    min-height: 50px;
+    min-width: 50px;
+    max-height: 100%;
+    max-width: 100vh;
+}
+
+.--molten-css-box-scale-factor-infinite{
+    height: 100%;
+    width: 100vh;
+}
+
+
+
+
+/* 
+GLobal flags for scale factor */
+.--molten-css-scale-factor-infinite{
+    height: 100vh;width: 100%;
+}
+.--molten-css-scale-factor-999{
+    max-height: 100vh;max-width: 100%;
+}
+
+
+
+
+
+/* 
+
+    Updated GLobal styles for fixing transparency issues
+
+*/
+*{
+    backdrop-filter: blur(5px);
+}
+
+
+
+
+
+/* 
+
+    More powerfull flahs which can turn the look of the whole website
+
+*/
+
+.molten-css-glass *{
+    opacity: 0.7;
+    border: 1px solid whitesmoke;
+}
+/* 
+
+    This flag turns the whole website too look glassy
+
+*/
+
+
+.--molten-css-premium-design *{
+    background-image: linear-gradient(to bottom right, white, silver);
+}
